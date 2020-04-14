@@ -1,8 +1,9 @@
 {
-	"name": "sscms",
+	"name": "vscode-sscms",
 	"displayName": "SSCMS",
 	"description": "SSCMS STL Language",
-	"version": "0.0.1",
+	"version": "1.0.1",
+	"icon": "siteserver.png",
 	"publisher": "sscms",
 	"license": "MIT",
 	"engines": {
@@ -11,10 +12,13 @@
 	"repository": {
 		"url": "https://github.com/siteserver/vscode"
 	},
-	"categories": [
+	"keywords": [
 		"CMS",
 		"SSCMS",
 		"SiteServer"
+	],
+	"categories": [
+		"Extension Packs"
 	],
 	"author": "SSCMS",
 	"bugs": {
