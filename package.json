@@ -1,42 +1,100 @@
 {
-	"name": "cms",
-	"displayName": "SiteServer CMS",
-	"description": "SiteServer CMS VS Code Extension",
-	"version": "1.0.0",
-	"publisher": "siteserver",
+	"name": "sscms",
+	"displayName": "SSCMS",
+	"description": "SSCMS STL Language",
+	"version": "0.0.1",
+	"publisher": "sscms",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.38.0"
+	},
 	"repository": {
-		"type": "git",
 		"url": "https://github.com/siteserver/vscode"
 	},
-	"icon": "siteserver.png",
-	"engines": {
-		"vscode": "^1.33.0"
-	},
 	"categories": [
-		"Other"
+		"CMS",
+		"SSCMS",
+		"SiteServer"
 	],
+	"author": "SSCMS",
+	"bugs": {
+	  "url": "https://github.com/siteserver/vscode/issues"
+	},
+	"homepage": "https://github.com/siteserver/vscode#readme",
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"*"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [{
-			"command": "extension.helloWorld",
-			"title": "Hello World"
-		}]
+		"colors": [
+			{
+				"id": "stl.background",
+				"description": "Background decoration color for large numbers",
+				"defaults": {
+					"dark": "#ff000055",
+					"light": "#ff000055",
+					"highContrast": "#ff000055"
+				}
+			}
+		],
+		"html": {
+			"customData": [
+				"./stl/stl_a.json",
+				"./stl/stl_action.json",
+				"./stl/stl_audio.json",
+				"./stl/stl_channel.json",
+				"./stl/stl_channels.json",
+				"./stl/stl_container.json",
+				"./stl/stl_content.json",
+				"./stl/stl_contents.json",
+				"./stl/stl_count.json",
+				"./stl/stl_dynamic.json",
+				"./stl/stl_each.json",
+				"./stl/stl_file.json",
+				"./stl/stl_flash.json",
+				"./stl/stl_focusViewer.json",
+				"./stl/stl_if.json",
+				"./stl/stl_image.json",
+				"./stl/stl_include.json",
+				"./stl/stl_itemTemplate.json",
+				"./stl/stl_library.json",
+				"./stl/stl_loading.json",
+				"./stl/stl_location.json",
+				"./stl/stl_marquee.json",
+				"./stl/stl_navigation.json",
+				"./stl/stl_no.json",
+				"./stl/stl_pageChannels.json",
+				"./stl/stl_pageContents.json",
+				"./stl/stl_pageItem.json",
+				"./stl/stl_pageItems.json",
+				"./stl/stl_pageSqlContents.json",
+				"./stl/stl_player.json",
+				"./stl/stl_printer.json",
+				"./stl/stl_queryString.json",
+				"./stl/stl_search.json",
+				"./stl/stl_select.json",
+				"./stl/stl_site.json",
+				"./stl/stl_sites.json",
+				"./stl/stl_sqlContent.json",
+				"./stl/stl_sqlContents.json",
+				"./stl/stl_tabs.json",
+				"./stl/stl_value.json",
+				"./stl/stl_video.json",
+				"./stl/stl_yes.json",
+				"./stl/stl_zoom.json"
+			]
+		}
 	},
 	"scripts": {
-		"vscode:prepublish": "yarn run compile",
+		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"postinstall": "node ./node_modules/vscode/bin/install",
-		"test": "yarn run compile && node ./node_modules/vscode/bin/test"
+		"lint": "tslint -p ./",
+		"watch": "tsc -watch -p ./"
 	},
 	"devDependencies": {
-		"typescript": "^3.3.1",
-		"vscode": "^1.1.28",
-		"tslint": "^5.12.1",
-		"@types/node": "^10.12.21",
-		"@types/mocha": "^2.2.42"
+		"@types/node": "^8.9.1",
+		"tslint": "^5.16.0",
+		"typescript": "^3.5.1",
+		"@types/vscode": "^1.38.0"
 	}
 }

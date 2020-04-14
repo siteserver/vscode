@@ -1,0 +1,1 @@
+{"version":1.1,"tags":[{"name":"stl:marquee","description":"无间隔滚动","attributes":[{"name":"scrollDelay","description":"滚动延迟时间（毫秒）"},{"name":"direction","description":"滚动方向"},{"name":"width","description":"宽度"},{"name":"height","description":"高度"}],"references":[{"name":"stl:marquee 无间隔滚动","url":"https://www.siteserver.cn/docs/stl/marquee/"}]}]}

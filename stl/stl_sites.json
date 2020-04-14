@@ -1,0 +1,1 @@
+{"version":1.1,"tags":[{"name":"stl:sites","description":"站点列表","attributes":[{"name":"siteName","description":"站点名称"},{"name":"siteDir","description":"站点文件夹"}],"references":[{"name":"stl:sites 站点列表","url":"https://www.siteserver.cn/docs/stl/sites/"}]}]}
