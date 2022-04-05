@@ -1,0 +1,21 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:map",
+      "description": "显示地图",
+      "attributes": [
+        { "name": "ak", "description": "百度地图密钥" },
+        { "name": "point", "description": "经纬度" },
+        { "name": "width", "description": "宽度" },
+        { "name": "height", "description": "高度" }
+      ],
+      "references": [
+        {
+          "name": "stl:map 显示地图",
+          "url": "https://sscms.com/docs/v7/stl/map/"
+        }
+      ]
+    }
+  ]
+}

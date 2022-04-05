@@ -17,7 +17,7 @@ export function activate(context: vscode.ExtensionContext) {
 		if (!activeEditor) {
 			return;
 		}
-		const regExElements = /<stl:[\w]+[^>]*>([\s\S]*?)<\/stl:[\w]+>/gm;
+		const regExElements = /<stl:[\w]+[^>]*>|<\/stl:[\w]+>/gm;
 		const regExEntities = /{stl\.[^{}]*}|{stl:[^{}]*}|{content\.[^{}]*}|{channel\.[^{}]*}|{comment\.[^{}]*}|{request\.[^{}]*}|{sql\.[^{}]*}|{user\.[^{}]*}|{navigation\.[^{}]*}|{photo\.[^{}]*}/ig;
 		const text = activeEditor.document.getText();
 		const stlOptions: vscode.DecorationOptions[] = [];

@@ -1,1 +1,19 @@
-{"version":1.1,"tags":[{"name":"stl:zoom","description":"文字缩放","attributes":[{"name":"zoomId","description":"页面Html 中缩放对象的 Id 属性"},{"name":"fontSize","description":"缩放字体大小"}],"references":[{"name":"stl:zoom 文字缩放","url":"https://www.siteserver.cn/docs/stl/zoom/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:zoom",
+      "description": "文字缩放",
+      "attributes": [
+        { "name": "zoomId", "description": "页面Html 中缩放对象的 Id 属性" },
+        { "name": "fontSize", "description": "缩放字体大小" }
+      ],
+      "references": [
+        {
+          "name": "stl:zoom 文字缩放",
+          "url": "https://sscms.com/docs/v7/stl/zoom/"
+        }
+      ]
+    }
+  ]
+}

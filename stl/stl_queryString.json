@@ -1,1 +1,16 @@
-{"version":1.1,"tags":[{"name":"stl:queryString","description":"SQL查询语句","attributes":[],"references":[{"name":"stl:queryString SQL查询语句","url":"https://www.siteserver.cn/docs/stl/queryString/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:queryString",
+      "description": "SQL查询语句",
+      "attributes": [],
+      "references": [
+        {
+          "name": "stl:queryString SQL查询语句",
+          "url": "https://sscms.com/docs/v7/stl/queryString/"
+        }
+      ]
+    }
+  ]
+}

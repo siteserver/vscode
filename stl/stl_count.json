@@ -1,1 +1,24 @@
-{"version":1.1,"tags":[{"name":"stl:count","description":"显示数值","attributes":[{"name":"type","description":"需要获取值的类型"},{"name":"channelIndex","description":"栏目索引"},{"name":"channelName","description":"栏目名称"},{"name":"upLevel","description":"上级栏目的级别"},{"name":"topLevel","description":"从首页向下的栏目级别"},{"name":"scope","description":"内容范围"},{"name":"since","description":"时间段"}],"references":[{"name":"stl:count 显示数值","url":"https://www.siteserver.cn/docs/stl/count/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:count",
+      "description": "显示数值",
+      "attributes": [
+        { "name": "type", "description": "需要获取值的类型" },
+        { "name": "index", "description": "栏目索引" },
+        { "name": "channelName", "description": "栏目名称" },
+        { "name": "upLevel", "description": "上级栏目的级别" },
+        { "name": "topLevel", "description": "从首页向下的栏目级别" },
+        { "name": "scope", "description": "内容范围" },
+        { "name": "since", "description": "时间段" }
+      ],
+      "references": [
+        {
+          "name": "stl:count 显示数值",
+          "url": "https://sscms.com/docs/v7/stl/count/"
+        }
+      ]
+    }
+  ]
+}

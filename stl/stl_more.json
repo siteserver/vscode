@@ -1,0 +1,18 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:more",
+      "description": "动态加载更多内容",
+      "attributes": [
+        { "name": "trigger", "description": "触发函数" }
+      ],
+      "references": [
+        {
+          "name": "stl:more 动态加载更多内容",
+          "url": "https://sscms.com/docs/v7/stl/more/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,25 @@
-{"version":1.1,"tags":[{"name":"stl:sqlContents","description":"数据库列表","attributes":[{"name":"connectionStringName","description":"数据库链接字符串名称"},{"name":"connectionString","description":"数据库链接字符串"},{"name":"queryString","description":"数据库查询语句"}],"references":[{"name":"stl:sqlContents 数据库列表","url":"https://www.siteserver.cn/docs/stl/sqlContents/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:sqlContents",
+      "description": "数据库列表",
+      "attributes": [
+        { "name": "databaseTypeName", "description": "数据库类型名称" },
+        { "name": "databaseType", "description": "数据库类型" },
+        {
+          "name": "connectionStringName",
+          "description": "数据库链接字符串名称"
+        },
+        { "name": "connectionString", "description": "数据库链接字符串" },
+        { "name": "queryString", "description": "数据库查询语句" }
+      ],
+      "references": [
+        {
+          "name": "stl:sqlContents 数据库列表",
+          "url": "https://sscms.com/docs/v7/stl/sqlContents/"
+        }
+      ]
+    }
+  ]
+}

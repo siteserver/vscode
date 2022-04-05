@@ -1,1 +1,16 @@
-{"version":1.1,"tags":[{"name":"stl:loading","description":"载入模板","attributes":[],"references":[{"name":"stl:loading 载入模板","url":"https://www.siteserver.cn/docs/stl/loading/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:loading",
+      "description": "载入模板",
+      "attributes": [],
+      "references": [
+        {
+          "name": "stl:loading 载入模板",
+          "url": "https://sscms.com/docs/v7/stl/loading/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:pdf",
+      "description": "PDF展示",
+      "attributes": [
+        { "name": "type", "description": "指定存储PDF文件的字段" },
+        { "name": "no", "description": "显示字段的顺序" },
+        { "name": "src", "description": "PDF文件地址" },
+        { "name": "fallbackLink", "description": "浏览器不支持时显示" },
+        { "name": "forceIFrame", "description": "使用iframe显示PDF" },
+        { "name": "width", "description": "显示宽度" },
+        { "name": "height", "description": "显示高度" },
+        { "name": "page", "description": "默认显示指定页" },
+        { "name": "full", "description": "整屏显示" }
+      ],
+      "references": [
+        {
+          "name": "stl:pdf PDF展示",
+          "url": "https://sscms.com/docs/v7/stl/pdf/"
+        }
+      ]
+    }
+  ]
+}

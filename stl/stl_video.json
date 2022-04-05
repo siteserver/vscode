@@ -1,1 +1,25 @@
-{"version":1.1,"tags":[{"name":"stl:video","description":"播放视频","attributes":[{"name":"type","description":"指定视频的字段"},{"name":"playUrl","description":"视频地址"},{"name":"imageUrl","description":"图片地址"},{"name":"width","description":"宽度"},{"name":"height","description":"高度"},{"name":"isAutoPlay","description":"是否自动播放"},{"name":"isControls","description":"是否显示播放控件"},{"name":"isLoop","description":"是否循环播放"}],"references":[{"name":"stl:video 播放视频","url":"https://www.siteserver.cn/docs/stl/video/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:video",
+      "description": "播放视频",
+      "attributes": [
+        { "name": "type", "description": "指定视频的字段" },
+        { "name": "playUrl", "description": "视频地址" },
+        { "name": "imageUrl", "description": "图片地址" },
+        { "name": "width", "description": "宽度" },
+        { "name": "height", "description": "高度" },
+        { "name": "isAutoPlay", "description": "是否自动播放" },
+        { "name": "isControls", "description": "是否显示播放控件" },
+        { "name": "isLoop", "description": "是否循环播放" }
+      ],
+      "references": [
+        {
+          "name": "stl:video 播放视频",
+          "url": "https://sscms.com/docs/v7/stl/video/"
+        }
+      ]
+    }
+  ]
+}

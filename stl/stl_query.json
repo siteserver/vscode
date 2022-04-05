@@ -1,0 +1,22 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:query",
+      "description": "查询条件",
+      "attributes": [
+        { "name": "type", "description": "类型" },
+        { "name": "column", "description": "字段" },
+        { "name": "op", "description": "操作" },
+        { "name": "value", "description": "值" },
+        { "name": "dataType", "description": "数据类型" }
+      ],
+      "references": [
+        {
+          "name": "stl:query 查询条件",
+          "url": "https://sscms.com/docs/v7/stl/query/"
+        }
+      ]
+    }
+  ]
+}

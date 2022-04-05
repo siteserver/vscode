@@ -1,1 +1,25 @@
-{"version":1.1,"tags":[{"name":"stl:audio","description":"播放音频","attributes":[{"name":"type","description":"指定存储音频地址的内容字段，默认为VideoUrl"},{"name":"playUrl","description":"音频地址，优先级高于type属性"},{"name":"isAutoPlay","description":"是否自动播放"},{"name":"isPreload","description":"是否预载入"},{"name":"isLoop","description":"是否循环播放"}],"references":[{"name":"stl:audio 播放音频","url":"https://www.siteserver.cn/docs/stl/audio/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:audio",
+      "description": "播放音频",
+      "attributes": [
+        {
+          "name": "type",
+          "description": "指定存储音频地址的内容字段，默认为VideoUrl"
+        },
+        { "name": "playUrl", "description": "音频地址，优先级高于type属性" },
+        { "name": "isAutoPlay", "description": "是否自动播放" },
+        { "name": "isPreload", "description": "是否预载入" },
+        { "name": "isLoop", "description": "是否循环播放" }
+      ],
+      "references": [
+        {
+          "name": "stl:audio 播放音频",
+          "url": "https://sscms.com/docs/v7/stl/audio/"
+        }
+      ]
+    }
+  ]
+}

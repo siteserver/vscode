@@ -1,1 +1,32 @@
-{"version":1.1,"tags":[{"name":"stl:search","description":"搜索","attributes":[{"name":"isAllSites","description":"是否对全部站点进行搜索"},{"name":"siteName","description":"站点名称"},{"name":"siteDir","description":"站点文件夹"},{"name":"siteIds","description":"站点Id列表"},{"name":"channelIndex","description":"栏目索引"},{"name":"channelName","description":"栏目名称"},{"name":"channelIds","description":"栏目Id列表"},{"name":"type","description":"搜索类型"},{"name":"word","description":"搜索关键词"},{"name":"dateAttribute","description":"搜索时间字段"},{"name":"dateFrom","description":"搜索开始时间"},{"name":"dateTo","description":"搜索结束时间"},{"name":"since","description":"搜索时间段"},{"name":"pageNum","description":"每页显示的内容数目"},{"name":"isHighlight","description":"是否关键字高亮"}],"references":[{"name":"stl:search 搜索","url":"https://www.siteserver.cn/docs/stl/search/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:search",
+      "description": "搜索",
+      "attributes": [
+        { "name": "isAllSites", "description": "是否对全部站点进行搜索" },
+        { "name": "siteName", "description": "站点名称" },
+        { "name": "siteDir", "description": "站点文件夹" },
+        { "name": "siteIds", "description": "站点Id列表" },
+        { "name": "index", "description": "栏目索引" },
+        { "name": "channelName", "description": "栏目名称" },
+        { "name": "channelIds", "description": "栏目Id列表" },
+        { "name": "type", "description": "搜索类型" },
+        { "name": "word", "description": "搜索关键词" },
+        { "name": "dateAttribute", "description": "搜索时间字段" },
+        { "name": "dateFrom", "description": "搜索开始时间" },
+        { "name": "dateTo", "description": "搜索结束时间" },
+        { "name": "since", "description": "搜索时间段" },
+        { "name": "pageNum", "description": "每页显示的内容数目" },
+        { "name": "isHighlight", "description": "是否关键字高亮" }
+      ],
+      "references": [
+        {
+          "name": "stl:search 搜索",
+          "url": "https://sscms.com/docs/v7/stl/search/"
+        }
+      ]
+    }
+  ]
+}

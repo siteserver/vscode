@@ -1,1 +1,20 @@
-{"version":1.1,"tags":[{"name":"stl:itemTemplate","description":"列表项","attributes":[{"name":"type","description":"列表项类型"},{"name":"selected","description":"列表当前选定项类型"},{"name":"selectedValue","description":"当前选定项的值"}],"references":[{"name":"stl:itemTemplate 列表项","url":"https://www.siteserver.cn/docs/stl/itemTemplate/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:itemTemplate",
+      "description": "列表项",
+      "attributes": [
+        { "name": "type", "description": "列表项类型" },
+        { "name": "selected", "description": "列表当前选定项类型" },
+        { "name": "selectedValue", "description": "当前选定项的值" }
+      ],
+      "references": [
+        {
+          "name": "stl:itemTemplate 列表项",
+          "url": "https://sscms.com/docs/v7/stl/itemTemplate/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,16 @@
-{"version":1.1,"tags":[{"name":"stl:yes","description":"成功模板","attributes":[],"references":[{"name":"stl:yes 成功模板","url":"https://www.siteserver.cn/docs/stl/yes/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:yes",
+      "description": "成功模板",
+      "attributes": [],
+      "references": [
+        {
+          "name": "stl:yes 成功模板",
+          "url": "https://sscms.com/docs/v7/stl/yes/"
+        }
+      ]
+    }
+  ]
+}

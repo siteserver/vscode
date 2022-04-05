@@ -1,0 +1,21 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:tags",
+      "description": "标签",
+      "attributes": [
+        { "name": "tagLevel", "description": "标签级别" },
+        { "name": "totalNum", "description": "显示标签数目" },
+        { "name": "isOrderByCount", "description": "是否按引用次数排序" },
+        { "name": "context", "description": "所处上下文" }
+      ],
+      "references": [
+        {
+          "name": "stl:tags 标签",
+          "url": "https://sscms.com/docs/v7/stl/tags/"
+        }
+      ]
+    }
+  ]
+}

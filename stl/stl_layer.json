@@ -1,0 +1,24 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:layer",
+      "description": "页面弹层",
+      "attributes": [
+        { "name": "trigger", "description": "触发函数名称" },
+        { "name": "title", "description": "标题" },
+        { "name": "url", "description": "Url地址" },
+        { "name": "width", "description": "宽度" },
+        { "name": "height", "description": "高度" },
+        { "name": "shadeClose", "description": "开启遮罩关闭" },
+        { "name": "offset", "description": "坐标" }
+      ],
+      "references": [
+        {
+          "name": "stl:layer 页面弹层",
+          "url": "https://sscms.com/docs/v7/stl/layer/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,19 @@
-{"version":1.1,"tags":[{"name":"stl:pageItems","description":"翻页项容器","attributes":[{"name":"context","description":"所处上下文"}],"references":[{"name":"stl:pageItems 翻页项容器","url":"https://www.siteserver.cn/docs/stl/pageItems/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:pageItems",
+      "description": "翻页项容器",
+      "attributes": [
+        { "name": "isAutoHide", "description": "无翻页时自动隐藏" },
+        { "name": "context", "description": "所处上下文" }
+      ],
+      "references": [
+        {
+          "name": "stl:pageItems 翻页项容器",
+          "url": "https://sscms.com/docs/v7/stl/pageItems/"
+        }
+      ]
+    }
+  ]
+}

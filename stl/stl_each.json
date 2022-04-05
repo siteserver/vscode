@@ -1,1 +1,16 @@
-{"version":1.1,"tags":[{"name":"stl:each","description":"列表项循环","attributes":[{"name":"type","description":"循环类型"}],"references":[{"name":"stl:each 列表项循环","url":"https://www.siteserver.cn/docs/stl/each/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:each",
+      "description": "列表项循环",
+      "attributes": [{ "name": "type", "description": "循环类型" }],
+      "references": [
+        {
+          "name": "stl:each 列表项循环",
+          "url": "https://sscms.com/docs/v7/stl/each/"
+        }
+      ]
+    }
+  ]
+}

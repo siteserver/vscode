@@ -1,0 +1,27 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:share",
+      "description": "页面分享",
+      "attributes": [
+        { "name": "url", "description": "分享网址" },
+        { "name": "source", "description": "来源" },
+        { "name": "title", "description": "标题" },
+        { "name": "origin", "description": "分享" },
+        { "name": "description", "description": "描述" },
+        { "name": "image", "description": "图片" },
+        { "name": "sites", "description": "分享至" },
+        { "name": "disabled", "description": "禁用" },
+        { "name": "wechatQrcodeTitle", "description": "微信扫一扫提示文字" },
+        { "name": "wechatQrcodeHelper", "description": "微信分享至朋友圈" }
+      ],
+      "references": [
+        {
+          "name": "stl:share 页面分享",
+          "url": "https://sscms.com/docs/v7/stl/share/"
+        }
+      ]
+    }
+  ]
+}

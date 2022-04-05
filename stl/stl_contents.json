@@ -1,1 +1,48 @@
-{"version":1.1,"tags":[{"name":"stl:contents","description":"内容列表","attributes":[{"name":"channelIndex","description":"栏目索引"},{"name":"channelName","description":"栏目名称"},{"name":"parent","description":"上级栏目"},{"name":"upLevel","description":"上级栏目的级别"},{"name":"topLevel","description":"从首页向下的栏目级别"},{"name":"scope","description":"范围"},{"name":"groupChannel","description":"指定栏目组"},{"name":"groupChannelNot","description":"排除栏目组"},{"name":"groupContent","description":"指定内容组"},{"name":"groupContentNot","description":"排除内容组"},{"name":"tags","description":"指定标签"},{"name":"isTop","description":"仅显示置顶内容"},{"name":"isRecommend","description":"仅显示推荐内容"},{"name":"isHot","description":"仅显示热点内容"},{"name":"isColor","description":"仅显示醒目内容"},{"name":"totalNum","description":"显示信息总数"},{"name":"startNum","description":"从第几条信息开始显示"},{"name":"order","description":"排序"},{"name":"isImage","description":"仅显示图片内容"},{"name":"isVideo","description":"仅显示视频内容"},{"name":"isFile","description":"仅显示附件内容"},{"name":"layout","description":"布局"},{"name":"columns","description":"列数"},{"name":"direction","description":"方向"},{"name":"align","description":"整体对齐"},{"name":"itemAlign","description":"项水平对齐"},{"name":"itemVerticalAlign","description":"项垂直对齐"},{"name":"itemClass","description":"项Css类"},{"name":"isRelatedContents","description":"显示相关内容列表"}],"references":[{"name":"stl:contents 内容列表","url":"https://www.siteserver.cn/docs/stl/contents/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:contents",
+      "description": "内容列表",
+      "attributes": [
+        { "name": "index", "description": "栏目索引" },
+        { "name": "channelName", "description": "栏目名称" },
+        { "name": "parent", "description": "上级栏目" },
+        { "name": "upLevel", "description": "上级栏目的级别" },
+        { "name": "topLevel", "description": "从首页向下的栏目级别" },
+        { "name": "scope", "description": "范围" },
+        { "name": "group", "description": "指定内容组" },
+        { "name": "groupNot", "description": "排除内容组" },
+        { "name": "groupChannel", "description": "指定栏目组" },
+        { "name": "groupChannelNot", "description": "排除栏目组" },
+        { "name": "groupContent", "description": "指定内容组" },
+        { "name": "groupContentNot", "description": "排除内容组" },
+        { "name": "tags", "description": "指定标签" },
+        { "name": "isTop", "description": "仅显示置顶内容" },
+        { "name": "isRecommend", "description": "仅显示推荐内容" },
+        { "name": "isHot", "description": "仅显示热点内容" },
+        { "name": "isColor", "description": "仅显示醒目内容" },
+        { "name": "totalNum", "description": "显示信息总数" },
+        { "name": "startNum", "description": "从第几条信息开始显示" },
+        { "name": "order", "description": "排序" },
+        { "name": "isImage", "description": "仅显示图片内容" },
+        { "name": "isVideo", "description": "仅显示视频内容" },
+        { "name": "isFile", "description": "仅显示附件内容" },
+        { "name": "layout", "description": "布局" },
+        { "name": "columns", "description": "列数" },
+        { "name": "direction", "description": "方向" },
+        { "name": "align", "description": "整体对齐" },
+        { "name": "itemAlign", "description": "项水平对齐" },
+        { "name": "itemVerticalAlign", "description": "项垂直对齐" },
+        { "name": "itemClass", "description": "项Css类" },
+        { "name": "isRelatedContents", "description": "显示相关内容列表" }
+      ],
+      "references": [
+        {
+          "name": "stl:contents 内容列表",
+          "url": "https://sscms.com/docs/v7/stl/contents/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,38 @@
-{"version":1.1,"tags":[{"name":"stl:select","description":"下拉列表","attributes":[{"name":"isChannel","description":"是否显示栏目下拉列表"},{"name":"channelIndex","description":"栏目索引"},{"name":"channelName","description":"栏目名称"},{"name":"upLevel","description":"上级栏目的级别"},{"name":"topLevel","description":"从首页向下的栏目级别"},{"name":"scope","description":"选择的范围"},{"name":"groupChannel","description":"指定显示的栏目组"},{"name":"groupChannelNot","description":"指定不显示的栏目组"},{"name":"groupContent","description":"指定显示的内容组"},{"name":"groupContentNot","description":"指定不显示的内容组"},{"name":"tags","description":"指定标签"},{"name":"order","description":"排序"},{"name":"totalNum","description":"显示数目"},{"name":"titleWordNum","description":"标题文字数量"},{"name":"queryString","description":"链接参数"},{"name":"isTop","description":"仅显示置顶内容"},{"name":"isRecommend","description":"仅显示推荐内容"},{"name":"isHot","description":"仅显示热点内容"},{"name":"isColor","description":"仅显示醒目内容"},{"name":"title","description":"下拉列表提示标题"},{"name":"openWin","description":"选择是否新窗口打开链接"}],"references":[{"name":"stl:select 下拉列表","url":"https://www.siteserver.cn/docs/stl/select/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:select",
+      "description": "下拉列表",
+      "attributes": [
+        { "name": "isChannel", "description": "是否显示栏目下拉列表" },
+        { "name": "index", "description": "栏目索引" },
+        { "name": "channelName", "description": "栏目名称" },
+        { "name": "upLevel", "description": "上级栏目的级别" },
+        { "name": "topLevel", "description": "从首页向下的栏目级别" },
+        { "name": "scope", "description": "选择的范围" },
+        { "name": "groupChannel", "description": "指定显示的栏目组" },
+        { "name": "groupChannelNot", "description": "指定不显示的栏目组" },
+        { "name": "groupContent", "description": "指定显示的内容组" },
+        { "name": "groupContentNot", "description": "指定不显示的内容组" },
+        { "name": "tags", "description": "指定标签" },
+        { "name": "order", "description": "排序" },
+        { "name": "totalNum", "description": "显示数目" },
+        { "name": "titleWordNum", "description": "标题文字数量" },
+        { "name": "queryString", "description": "链接参数" },
+        { "name": "isTop", "description": "仅显示置顶内容" },
+        { "name": "isRecommend", "description": "仅显示推荐内容" },
+        { "name": "isHot", "description": "仅显示热点内容" },
+        { "name": "isColor", "description": "仅显示醒目内容" },
+        { "name": "title", "description": "下拉列表提示标题" },
+        { "name": "openWin", "description": "选择是否新窗口打开链接" }
+      ],
+      "references": [
+        {
+          "name": "stl:select 下拉列表",
+          "url": "https://sscms.com/docs/v7/stl/select/"
+        }
+      ]
+    }
+  ]
+}

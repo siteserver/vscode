@@ -1,1 +1,16 @@
-{"version":1.1,"tags":[{"name":"stl:include","description":"包含文件","attributes":[{"name":"file","description":"文件路径"}],"references":[{"name":"stl:include 包含文件","url":"https://www.siteserver.cn/docs/stl/include/"}]}]}
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:include",
+      "description": "包含文件",
+      "attributes": [{ "name": "file", "description": "文件路径" }],
+      "references": [
+        {
+          "name": "stl:include 包含文件",
+          "url": "https://sscms.com/docs/v7/stl/include/"
+        }
+      ]
+    }
+  ]
+}

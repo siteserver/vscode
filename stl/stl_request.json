@@ -1,0 +1,20 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "stl:request",
+      "description": "URL地址请求",
+      "attributes": [
+        { "name": "type", "description": "地址参数名称" },
+        { "name": "elementId", "description": "指定需要显示地址参数值的HTML元素Id" },
+        { "name": "callback", "description": "回调函数名称" }
+      ],
+      "references": [
+        {
+          "name": "stl:request URL地址请求",
+          "url": "https://sscms.com/docs/v7/stl/request/"
+        }
+      ]
+    }
+  ]
+}
